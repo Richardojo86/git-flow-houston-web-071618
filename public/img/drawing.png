@@ -1,0 +1,49 @@
+Now it's time to delete the remote branch add-fireflies as it is now included in the master branch: git push origin :add-fireflies
+VISUALIZATION
+Just to review, this is the chronological order of this lab complete with a diagram of the branches:
+branches
+from master, create branch add-turtle
+add turtle pic and caption to index.html
+merge add-turtle into master, now master has tree and turtle pics
+from master, create branch add-walrus
+add walrus pic and caption
+from master, create branch add-walrus-and-polar-bear
+add polar bear pic and caption
+merge add-walrus into add-walrus-and-polar-bear and fix merge conflicts - now branch has tree, turtle, polar bear, and walrus
+"Lauren" makes branch add-fireflies off of master and adds an emoticon to the readme
+add firefly pic and caption to add-firefly branch
+merge add-firefly into master
+Without looking at the diagram above, try and draw your own visualization. Take a picture of your work and add that image to the public/img/ folder. Title your drawing "drawing.png".
+QUIZ TIME
+From the master branch, replace the question marks in spec/comprehension_spec.rb with the answers. Every answer should be a string. To check your answers, run learn. (If you don't have the Learn gem installed, you'll need to do that first: gem install learn-co. If the gem command doesn't work, make sure you have a working installation of Ruby.) Once every test is passing, submit a pull request using your master branch.
+EXTRA CREDIT
+Merge add-walrus-and-polar-bear into master. Fix the merge conflicts and push the changes before deleting the local and remote add-walrus-and-polar-bear branches.
+CONCLUSION
+Now you have:
+First Section
+Created a branch
+Staged and committed changes
+Merged a feature branch into master
+Pushed changes in master to a remote repository
+Deleted a local branch
+Second Section
+Created two branches off of master, each with "competing code"
+Merged a feature branch into a feature branch
+Resolved merge conflicts
+Pushed a local branch to a remote repository
+Third Section
+Created a remote branch and commited changes to it
+Fetched the remote branch
+Added changes to this fetched branch locally
+Merged the fetched branch into master
+Pushed master to a remote repository
+Deleted a local branch
+Deleted a remote branch
+Extra Credit
+Practiced resolving merge conflicts, pushing, and deleting branches
+RESOURCES
+SourceTree Blog - Merge or Rebase?
+Pro Git - Chapter 3 Git Branching
+Pro Git - 3.1 Git Branching - What a Branch Is
+Pro Git - 3.2 Git Branching - Basic Branching and Merging
+LearnGitBranching - Introduction Sequence: Branching in Git
